@@ -1,0 +1,56 @@
+
+.splash {
+
+	position: relative;
+  	text-align: left;
+ 	color: white;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: 'Raleway', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .centered {
+   left: 37%;
+  }
+
+}
+
+
+.aboutus {
+	
+	color: black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.about {
+	margin-top: 35px;
+	height: 150px;
+}
+
+.boxed {
+
+	margin-right: 100px;
+
+}
+
+.nav {
+
+	float: right;
+}
+
+.contact {
+	margin-top: 80px;
+	min-height: 300px;
+
+}
+
